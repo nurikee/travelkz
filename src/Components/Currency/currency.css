@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239,239, 239);
+  --bodyColor:rgb(240, 240, 246);
+  --cardBG:rgb(225, 225, 235);
+}
+
+
+
+.currency{
+  
+  justify-content: center;
+}
+
+
+
+.App1 {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  width: 900px;
+  margin-left: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  padding: 120px;
+  border-radius: 15px;
+}
+
+.block input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    letter-spacing: 1.3px;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.currencies {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.currencies  li {
+    display: inline-flex;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.currencies  li:hover {
+      background-color: var(--PrimaryColor)
+}
+
+.currencies  li:active {
+      background-color: rgba(0, 0, 0, 0.05);
+}
+
+svg {
+  width: 16px;
+  height: 16px;
+}
+
